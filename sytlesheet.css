@@ -520,6 +520,7 @@ section{
     margin-bottom: 5px;
 }
 .Technical-bars .bar .info span{
+    color: white;
     font-size: 17px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
@@ -531,7 +532,7 @@ section{
     width: 100%;
     height: 5px;
     background-color: #606060;
-    animation: animate 1s cubic-bezier(1,0,0,5) forwards;
+    animation: animate 1s cubic-bezier(1,0,1,1) forwards;
     transform: scaleX(0);
     transform-origin: left; 
     margin-bottom: 10px; 
@@ -547,7 +548,7 @@ section{
     background-color: #fff;
     position: absolute;
     border-radius: 10px;
-    animation: animate 1s 1s cubic-bezier(1,0,0,5) forwards;
+    animation: animate 3s 1s cubic-bezier(1,1,1,1) forwards;
     transform: scaleX(0);
     transform-origin: left;
 }
@@ -561,13 +562,13 @@ section{
     width: 50%;
 }
 .progress-line.Java span{
-    width: 92%;
+    width: 95%;
 }
 .progress-line.SQL span{
-    width: 87%;
+    width: 90%;
 }
 .progress-line.GitGitHub span{
-    width: 80%;
+    width: 85%;
 }
 .progress-line span::after{
     position: absolute;
@@ -664,10 +665,10 @@ section{
     stroke-dashoffset: 502;
     stroke-linecap: round;
 }
-.path-1{animation: animate-path1 1s 1s linear forwards}
-.path-2{animation: animate-path2 1s 1s linear forwards}
-.path-3{animation: animate-path3 1s 1s linear forwards}
-.path-4{animation: animate-path4 1s 1s linear forwards}
+.path-1{animation: animate-path1 2s 1s linear forwards}
+.path-2{animation: animate-path2 2s 1s linear forwards}
+.path-3{animation: animate-path3 2s 1s linear forwards}
+.path-4{animation: animate-path4 2s 1s linear forwards}
 
 /*stroke-dashoffset: calc(502 - (502 * desired_percentage / 100)); /* Adjust '502' based on the circumference Other styles */
 
@@ -714,6 +715,7 @@ section{
     opacity: 0;
 }
 .percentage{
+    color: white;
     position: relative;
     text-align: center;
     bottom: 85px;
@@ -726,6 +728,7 @@ section{
     left: 5px;
 }
 .texts{
+    color: white;
     position: relative;
     text-align: center;
     bottom: 15px;
