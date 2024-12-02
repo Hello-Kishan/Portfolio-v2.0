@@ -24,14 +24,24 @@
 } */
 #plus div{color: #000;}
 
-body {
-    
-    background-size: 100% 65%;
-    color: #ededed;
-    background:#000000;
+body, html {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; To prevent scrollbars */
+}
 
-    height: 100%;
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/Portfolio_v2.0/image/u2.jpg'); /* Replace with your image */
+    background-size: 110%; /* Adjust to fit the design */
     background-repeat: no-repeat;
+    background-position: center;
+    transition: background-position 0.5s ease-out;
+    z-index: -1;
 }
 
 header {
@@ -200,6 +210,7 @@ header {
 }
 
 .home-content h3 {
+    color: white;
     font-size: 32px;
     font-weight: 700;
     opacity: 0;
@@ -232,6 +243,7 @@ header {
 }
 
 .home-content h1 {
+    color: white;
     font-size: 70px;
     font-weight: 700;
     margin: -3px 0;
@@ -330,6 +342,7 @@ header {
     border-radius: 8px;
 }
 .about-text h2{
+    color: white;
     font-size: 60px;
 }
 .about-text h2 span{
@@ -358,12 +371,12 @@ header {
     justify-content: center;
 }
 .sub-title{
+    color: white;
     width: 100%;
     text-align: center;
     font-size: 60px;
     padding-bottom: 70px;
     /* margin-left: 50px; */
-
     
 }
 .sub-title span{
@@ -478,6 +491,7 @@ section{
     
 }
 .heading1{
+    color: white;
     text-align: center;
     /* text-decoration: underline; */
     /* text-underline-offset: 10px; */
@@ -740,6 +754,7 @@ section{
     margin-top: 200px;
 }
 .main-text h2{
+    color: white;
     font-size: 60px;
     line-height: 1;
     text-align: center;
@@ -825,6 +840,7 @@ transform: scale(1.1);
 }
 
 .contact-text h2{
+    color: white;
     font-size: 90px;
     line-height: 1;
     text-align: center;
@@ -848,6 +864,7 @@ transform: scale(1.1);
     margin-bottom: 3rem;
 }
 .contact-list li{
+    color: white;
     margin-bottom: 10px;
     display: block;
 }
@@ -936,6 +953,7 @@ transform: scale(1.1);
     text-align: center;
     padding: 25px 0;
     background-color: #606060;
+    color: #d3d3d3;
     font-weight: 300;
     margin-top: 70px;
 }
