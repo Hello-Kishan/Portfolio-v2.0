@@ -143,13 +143,13 @@ header {
 #img.visible {
     opacity: 1;
     visibility: visible;
-    transition: opacity 2s ease-in-out, visibility 2s ease-in-out;
+    /* transition: opacity 2s ease-in-out, visibility 2s ease-in-out; */
 }
 
 
 #img:hover {
 
-    transition-duration: .8s;
+    transition-duration: 1s;
     box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255), 0 0 50px rgb(255, 255, 255);
 }
 @keyframes moveUpDown {
