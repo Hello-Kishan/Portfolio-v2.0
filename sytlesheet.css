@@ -36,7 +36,7 @@ body, html {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url('../image/u2.jpg?v=1'); /* Replace with your image */
+    background-image: url('Portfolio-v2.0/u2.jpg'); /* Replace with your image */
     background-size: 110%; /* Adjust to fit the design */
     background-repeat: no-repeat;
     background-position: center;
